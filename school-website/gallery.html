@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="View classrooms, reading areas, play-based learning, art activities and campus life at HoneyBerry International School in Kumasi.">
+  <title>Gallery | HoneyBerry International School</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="assets/logo.jpeg" type="image/jpeg">
+</head>
+<body>
+  <header class="site-header"><div class="container nav"><a class="brand" href="index.html" aria-label="HoneyBerry International School home"><img class="brand-logo" src="assets/logo.jpeg" alt="HoneyBerry International School logo"><span class="brand-text"><strong>HoneyBerry International</strong><span>School Kumasi</span></span></a><nav class="nav-links" id="primary-navigation" aria-label="Primary navigation"><ul class="nav-list"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="programs.html">Programs</a></li><li><a href="admissions.html">Admissions</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="contact.html">Contact</a></li></ul></nav><div class="nav-actions"><a class="btn btn-outline" href="https://wa.me/233202496699?text=Hello%20HoneyBerry%2C%20I%20would%20like%20to%20book%20a%20tour." target="_blank" rel="noopener noreferrer">WhatsApp</a><a class="btn btn-primary" href="admissions.html">Apply Now</a><button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-navigation" data-menu-toggle><span></span><span></span><span></span></button></div></div></header>
+
+  <main>
+    <section class="page-hero gallery-hero" style="--hero-image: url('assets/gallery/classroom2.jpg');">
+      <div class="container reveal"><p class="eyebrow">Gallery</p><h1>A closer look at learning, play, and everyday school life.</h1><p class="lead">Explore real spaces and moments from HoneyBerry International School, from bright classrooms and creative work to campus corners parents will see during a visit.</p></div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="gallery-intro reveal">
+          <div>
+            <p class="eyebrow">Campus moments</p>
+            <h2>Spaces that help children feel settled, curious, and ready to learn.</h2>
+          </div>
+          <p>Use the filters to browse classroom learning, events, campus life, sports and outdoor moments. Every image is kept simple and purposeful so parents can quickly understand the school environment.</p>
+        </div>
+
+        <div class="gallery-filters reveal" aria-label="Gallery categories">
+          <button class="gallery-filter active" type="button" data-filter="all" aria-pressed="true">All</button>
+          <button class="gallery-filter" type="button" data-filter="learning" aria-pressed="false">Learning</button>
+          <button class="gallery-filter" type="button" data-filter="events" aria-pressed="false">Activities</button>
+          <button class="gallery-filter" type="button" data-filter="campus" aria-pressed="false">Campus Life</button>
+          <button class="gallery-filter" type="button" data-filter="sports" aria-pressed="false">Outdoor Play</button>
+        </div>
+
+        <div class="gallery-grid" data-gallery-grid>
+          <article class="gallery-item feature reveal" data-category="learning"><img src="assets/gallery/classroom2.jpg" loading="lazy" alt="HoneyBerry classroom prepared for young children"><div class="gallery-caption"><span>Learning</span><strong>Prepared Classrooms</strong><small>Organized spaces for calm, focused daily routines</small></div></article>
+          <article class="gallery-item tall reveal" data-category="campus"><img src="assets/gallery/reception.jpg" loading="lazy" alt="HoneyBerry school reception area"><div class="gallery-caption"><span>Campus Life</span><strong>Welcoming Reception</strong><small>A calm first stop for parents and visitors</small></div></article>
+          <article class="gallery-item small reveal" data-category="learning"><img src="assets/gallery/reading-area.jpg" loading="lazy" alt="Reading area for young children"><div class="gallery-caption"><span>Learning</span><strong>Reading Corner</strong><small>Encouraging early literacy habits</small></div></article>
+          <article class="gallery-item small reveal" data-category="events"><img src="assets/gallery/art-display.jpg" loading="lazy" alt="Children's artwork displayed at school"><div class="gallery-caption"><span>Activities</span><strong>Creative Display</strong><small>Celebrating children's effort and expression</small></div></article>
+          <article class="gallery-item medium reveal" data-category="campus"><img src="assets/gallery/welcome-wall.jpg" loading="lazy" alt="Welcome wall at HoneyBerry International School"><div class="gallery-caption"><span>Campus Life</span><strong>School Identity</strong><small>A bright welcome into the HoneyBerry community</small></div></article>
+          <article class="gallery-item medium reveal" data-category="events"><img src="assets/gallery/art-painting.jpg" loading="lazy" alt="Child painting and art activity"><div class="gallery-caption"><span>Activities</span><strong>Art Activities</strong><small>Hands-on creativity beyond regular lessons</small></div></article>
+          <article class="gallery-item tall reveal" data-category="sports"><img src="assets/gallery/outdoor.jpg" loading="lazy" alt="Outdoor school area for play and activities"><div class="gallery-caption"><span>Outdoor Play</span><strong>Movement and Play</strong><small>Space for games, movement, and supervised activity</small></div></article>
+          <article class="gallery-item small reveal" data-category="learning"><img src="assets/gallery/classroom.jpg" loading="lazy" alt="HoneyBerry classroom with early learning materials"><div class="gallery-caption"><span>Learning</span><strong>Everyday Lessons</strong><small>Structured routines for confident learning</small></div></article>
+          <article class="gallery-item small reveal" data-category="campus"><img src="assets/gallery/playhouse.jpg" loading="lazy" alt="Children's playhouse on school campus"><div class="gallery-caption"><span>Campus Life</span><strong>Early Years Play</strong><small>Play spaces for younger learners</small></div></article>
+          <article class="gallery-item feature reveal" data-category="learning"><img src="assets/gallery/classroom3.jpg" loading="lazy" alt="Classroom setup at HoneyBerry International School"><div class="gallery-caption"><span>Learning</span><strong>Learning Materials</strong><small>Classrooms arranged for focus and participation</small></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft"><div class="container cta-inner reveal"><div><p class="eyebrow">See it in person</p><h2>Photos help, but a campus visit tells the full story.</h2><p>Book a visit to meet our teachers, ask questions, and understand the school environment.</p></div><div class="cta-actions"><a class="btn btn-secondary" href="contact.html">Book a School Visit</a><a class="btn btn-whatsapp" href="https://wa.me/233202496699?text=Hello%20HoneyBerry%2C%20I%20would%20like%20to%20visit%20the%20school." target="_blank" rel="noopener noreferrer">Book on WhatsApp</a></div></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-grid"><div><a class="brand" href="index.html" aria-label="HoneyBerry International School home"><img class="brand-logo" src="assets/logo.jpeg" alt="HoneyBerry International School logo"><span class="brand-text"><strong>HoneyBerry International</strong><span>School Kumasi</span></span></a><p>Quality early childhood and lower primary education in Kumasi with care, structure, creativity, and strong parent communication.</p></div><div><h3>Pages</h3><div class="footer-links"><a href="about.html">About</a><a href="programs.html">Programs</a><a href="admissions.html">Admissions</a><a href="gallery.html">Gallery</a></div></div><div><h3>Admissions</h3><div class="footer-links"><a href="admissions.html#process">Process</a><a href="admissions.html#requirements">Requirements</a><a href="contact.html">Book a Visit</a><a href="https://wa.me/233202496699" target="_blank" rel="noopener noreferrer">WhatsApp Us</a></div></div><div><h3>Contact</h3><p>Sokoban, Apaaso - Kumasi, Ghana<br><a href="tel:+233202496699">+233 20 249 6699</a><br><a href="mailto:info@honeyberryintschool.com">info@honeyberryintschool.com</a></p></div></div><div class="container footer-bottom"><span>&copy; 2026 HoneyBerry International School.</span><span>Play Group &middot; Cr&egrave;che &middot; Nursery &middot; Kindergarten &middot; Class 1-3</span></div></footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
